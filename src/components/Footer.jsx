@@ -1,5 +1,5 @@
 import '../components/css/Footer.css';
-import imgFooter from './src/assets/github-mark.png';
+import imgFooter from './assets/github-mark.png';
 
 function FooterImg() {
   return (
