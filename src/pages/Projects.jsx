@@ -1,28 +1,28 @@
 import React, { useEffect } from "react";
 import "../components/css/Projects.css";
-import img1 from "./dist/assets/weatherweek-api-DixkBlpI.png";
+// import img1 from "./dist/assets/weatherweek-api.png";
 // import img2 from "./dist/assets/vehicularInquirer.png";
 // import img3 from "./dist/assets/CMSSQL.png";
 // import img4 from "./dist/assets/blogger.png";
 // import img5 from "./dist/assets/READMEGEN.png";
-// , img2, img3, img4, img5
-const imgArray = [img1];
 
-function imgGen() {
-    imgArray.forEach((img, index) => {
-        const projectElement = document.getElementById(`project${index + 1}`);
-        if (projectElement) {
-            projectElement.style.backgroundImage = `url(${img})`;
-        }
-    });
-}
+// const imgArray = [img1, img2, img3, img4, img5];
+
+// function imgGen() {
+//     imgArray.forEach((img, index) => {
+//         const projectElement = document.getElementById(`project${index + 1}`);
+//         if (projectElement) {
+//             projectElement.style.backgroundImage = `url(${img})`;
+//         }
+//     });
+// }
 
 
 
 function Projects() {
-    useEffect(() => {
-        imgGen();
-    }, []);
+    // useEffect(() => {
+    //     imgGen();
+    // }, []);
 
     return (
         <>

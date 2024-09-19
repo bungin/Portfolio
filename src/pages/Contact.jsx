@@ -1,8 +1,20 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import '../components/css/Contact.css';
 
+
+
 export const Contact = () => {
+   
+    function clearForm() {
+        document.getElementById('nameIn').value = '';
+        document.getElementById('emailIn').value = '';
+        document.getElementById('messageIn').value = '';
+
+    }
+
+
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -15,23 +27,25 @@ export const Contact = () => {
             .then(
                 () => {
                     console.log('SUCCESS!');
+                    clearForm();
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
                 },
             );
     };
+
     return (
         <div>
             <h1 className="center">Contact</h1>
             <div className="center">
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={form} id="contSubmit" onSubmit={sendEmail}>
                     <label>Name</label>
-                    <input type="text" name="user_name" />
+                    <input type="text" name="user_name" id="nameIn" />
                     <label>Email</label>
-                    <input type="email" name="user_email" />
+                    <input type="email" name="user_email" id="emailIn" />
                     <label>Message</label>
-                    <textarea name="message" />
+                    <textarea name="message" id="messageIn" />
                     <input type="submit" value="Send" />
                 </form>
             </div>
