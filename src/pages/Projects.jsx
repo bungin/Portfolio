@@ -34,14 +34,16 @@ function Projects() {
                         </div>
                     </a>
                 
-                    <a className="flex-item proj4" id="project4" aria-label="">
+                    <a className="flex-item proj4" id="project4" aria-label=""
+                        href="https://github.com/bungin/Blogger">
                         <div>
                             <h3>Blogger</h3>
                             <h4>Javascript HTML CSS</h4>
                         </div>
                     </a>
                 
-                    <a className="flex-item proj5" id="project5" aria-label="">
+                    <a className="flex-item proj5" id="project5" aria-label=""
+                        href="https://github.com/bungin/README-generator">
                             <div>
                               <h3>README Gen</h3>
                               <h4>Javascript Node.js Inquirer</h4>
