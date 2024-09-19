@@ -18,7 +18,7 @@ body {
   color: var(--primary);
   background-color: var(--light);
   line-height: 1.5;
-  background-image: url('../src/assets/img2.jpg');
+  background-image: url('../src/components/assets/img2.jpg');
 }
 
 h1,
