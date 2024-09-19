@@ -1,8 +1,39 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portfolio
 
-Currently, two official plugins are available:
+## Badges
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+NimMac/Bungin Portfolio
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+n/a
+
+## Usage
+Personal Portfolio
+
+## Credits
+NimMac/Bungin
+
+
+## License
+This project is licensed under the GPL 3.0 license.
+
+(https://www.gnu.org/licenses/gpl-3.0)
+
+## Features
+React, HTML, CSS
+
+## How to Contribute
+n/a
+
+## Tests
+n/a
