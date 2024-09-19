@@ -1,11 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
+import Maint from './pages/Maint.jsx'
 import './index.css'
 import './components/css/Footer.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Maint />
   </StrictMode>,
 )
