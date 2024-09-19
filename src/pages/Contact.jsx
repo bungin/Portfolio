@@ -19,7 +19,7 @@ export const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        
+
         emailjs
             .sendForm('service_h2ebmpk', 'template_wdqy2wa', form.current, {
                 publicKey: 'mK8CwKI1XhTp-XqXs',
