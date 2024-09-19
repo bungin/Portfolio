@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+.proj1 {
+    background-image: url(./src/assets/weatherweek-api.png);
+}
+
+.proj2 {
+    background-image: url(./src/assets/VehicularInquirer.png);
+}
+
+.proj3 {
+    background-image: url(./src/assets/CMSSQL.png);
+}
+
+.proj4 {
+    background-image: url(./src/assets/blogger.png);
+}
+
+.proj5 {
+    background-image: url(./src/assets/READMEGEN.png);
+}
+
+
+
+.page-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.flex-item {
+    display: flex;
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    height: 150px;
+    flex-basis: calc(50% - 1em);
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+
+/* feature first portfolio item */
+.flex-item:first-child {
+    max-width: 800px;
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.flex-item div {
+    background-color: var(--secondary);
+    padding: 8px 10px;
+}
+
+.flex-item h3 {
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width:768px) {
+    .flex-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .flex-item:first-child {
+        flex: 0 1 50%;
+        max-width: 50%;
+
+        min-height: 150px;
+    }
+
+    .flex-item h3 {
+        font-size: .5rem;
+        word-wrap: break-word;
+    }
+
+    .flex-item h4 {
+        font-size: .3rem;
+        word-wrap: break-word;
+    }
+
+    .flex-item div {
+        max-width: 50%;
+
+    }
+}
+
+@media screen and (min-width: 1820px) {
+    .flex-item {
+        flex: 0 1 50%;
+        max-width: 30%;
+        max-height: 900px;
+        min-height: 400px;
+    }
+
+    .flex-item:first-child {
+        flex: 0 1 50%;
+        max-width: 30%;
+        max-height: 900px;
+        min-height: 400px;
+    }
+
+    .flex-container {
+        flex-direction: row;
+    }
+    
+}

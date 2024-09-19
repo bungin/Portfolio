@@ -1,0 +1,15 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+footer img{
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+    cursor: pointer;
+}
