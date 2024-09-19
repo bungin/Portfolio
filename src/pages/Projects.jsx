@@ -1,4 +1,6 @@
 import "../components/css/Projects.css";
+// import img1 from "../components/assets/weatherweek.png";
+
 
 
 function Projects() {
@@ -26,7 +28,7 @@ function Projects() {
                         </div>
                     </a>
                 
-                    <a className="flex-item proj3" id="project3" aria-label=""
+                    <a className="flex-item" id="project3" aria-label=""
                         href="https://github.com/bungin/CMS-SQL">
                         <div>
                             <h3>CMS SQL</h3>
@@ -34,7 +36,7 @@ function Projects() {
                         </div>
                     </a>
                 
-                    <a className="flex-item proj4" id="project4" aria-label=""
+                    <a className="flex-item" id="project4" aria-label=""
                         href="https://github.com/bungin/Blogger">
                         <div>
                             <h3>Blogger</h3>
@@ -42,7 +44,7 @@ function Projects() {
                         </div>
                     </a>
                 
-                    <a className="flex-item proj5" id="project5" aria-label=""
+                    <a className="flex-item" id="project5" aria-label=""
                         href="https://github.com/bungin/README-generator">
                             <div>
                               <h3>README Gen</h3>
