@@ -3,23 +3,23 @@
 }
 
 .proj1 {
-    background-image: url(./src/assets/weatherweek-api.png);
+    background-image: url(./public/weatherweek-api.png);
 }
 
 .proj2 {
-    background-image: url(./src/assets/VehicularInquirer.png);
+    background-image: url(./public/VehicularInquirer.png);
 }
 
 .proj3 {
-    background-image: url(./src/assets/CMSSQL.png);
+    background-image: url(./public/CMSSQL.png);
 }
 
 .proj4 {
-    background-image: url(./src/assets/blogger.png);
+    background-image: url(./public/blogger.png);
 }
 
 .proj5 {
-    background-image: url(./src/assets/READMEGEN.png);
+    background-image: url(./public/READMEGEN.png);
 }
 
 

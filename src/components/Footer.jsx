@@ -5,7 +5,7 @@ function Footer() {
     <footer className="footer">
       <a href="https://github.com/bungin/">
         <button>
-          <img className='gitButt' src="./src/assets/github-mark.png" alt="NimMac/Bungin GitHub link" />
+          <img className='gitButt' src="./public/github-mark.png" alt="NimMac/Bungin GitHub link" />
         </button>
       </a>
       &copy; {new Date().getFullYear()} NimMac/Bungin
