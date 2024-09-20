@@ -32,8 +32,5 @@ This project is licensed under the GPL 3.0 license.
 ## Features
 React, HTML, CSS
 
-## How to Contribute
-n/a
-
-## Tests
-n/a
+## Notes for graders
+Help from TA at line 23, Contact.jsx

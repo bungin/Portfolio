@@ -17,8 +17,6 @@ function imgGen() {
     });
 }
 
-
-
 function Projects() {
     useEffect(() => {
         imgGen();
@@ -78,5 +76,3 @@ function Projects() {
 }
 
 export default Projects;
-
-

@@ -4,7 +4,6 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
-
 }
 
 header h1 {
@@ -59,11 +58,9 @@ nav a {
     nav ls {
         font-size: 1rem;
         margin: 10px 0px;
-        
     }
     nav ul {
         display: flex;
         flex-direction: column;  
     }
-    
 }

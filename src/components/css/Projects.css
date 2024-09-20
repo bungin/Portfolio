@@ -1,11 +1,6 @@
-
-
 * {
     box-sizing: border-box;
 }
-
-
-
 
 .page-wrapper {
     max-width: 88%;
@@ -17,7 +12,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .flex-item {
@@ -66,7 +60,6 @@
     .flex-item:first-child {
         flex: 0 1 50%;
         max-width: 50%;
-
         min-height: 150px;
     }
 
@@ -82,7 +75,6 @@
 
     .flex-item div {
         max-width: 50%;
-
     }
 }
 
@@ -104,5 +96,4 @@
     .flex-container {
         flex-direction: row;
     }
-    
 }

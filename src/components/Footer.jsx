@@ -1,7 +1,6 @@
 import '../components/css/Footer.css';
 import imgFooter from './assets/github-mark.png';
 
-
 function Footer() {
   return (
     <footer className="footer">
