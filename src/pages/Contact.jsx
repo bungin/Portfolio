@@ -16,10 +16,13 @@ export const Contact = () => {
 
 
     const form = useRef();
-
+    
     const sendEmail = (e) => {
         e.preventDefault();
+        
+        if (document.getElementById('nameIn').value && document.getElementById('emailIn').value && document.getElementById('messageIn').value) {
 
+        
         emailjs
             .sendForm('service_h2ebmpk', 'template_wdqy2wa', form.current, {
                 publicKey: 'mK8CwKI1XhTp-XqXs',
@@ -33,8 +36,10 @@ export const Contact = () => {
                     console.log('FAILED...', error.text);
                 },
             );
+        } else {
+            alert('Please fill out all fields before submitting');
+        }
     };
-
     return (
         <div>
             <h1 className="center">Contact</h1>
