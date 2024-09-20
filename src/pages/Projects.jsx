@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "../components/css/Projects.css";
 import img1 from "./assets/weatherweek-api.png";
-import img2 from "./assets/vehicularInquirer.png";
+import img2 from "./assets/VehicularInquirer.png";
 import img3 from "./assets/CMSSQL.png";
 import img4 from "./assets/blogger.png";
 import img5 from "./assets/READMEGEN.png";
