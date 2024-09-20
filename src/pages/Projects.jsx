@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import "../components/css/Projects.css";
-import img1 from "./dist/assets/weatherweek-api.png";
-import img2 from "./dist/assets/vehicularInquirer.png";
-import img3 from "./dist/assets/CMSSQL.png";
-import img4 from "./dist/assets/blogger.png";
-import img5 from "./dist/assets/READMEGEN.png";
+import img1 from "./assets/weatherweek-api.png";
+import img2 from "./assets/vehicularInquirer.png";
+import img3 from "./assets/CMSSQL.png";
+import img4 from "./assets/blogger.png";
+import img5 from "./assets/READMEGEN.png";
 
 const imgArray = [img1, img2, img3, img4, img5];
 
