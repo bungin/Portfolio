@@ -7,6 +7,6 @@ import './components/css/Footer.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Maint />
+    <App />
   </StrictMode>,
 )
